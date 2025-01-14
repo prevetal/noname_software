@@ -51,24 +51,10 @@
     /*----------
         Tabs
     ----------*/
-    .tabs
-    {
-        margin-bottom: 20px;
-    }
-
-
     .tabs .btn
-    {
-        padding: 2px;
-    }
-
-
-    .tabs .btn div
     {
         height: 64px;
         padding: 16px 20px;
-
-        border-radius: 18px;
     }
 
 

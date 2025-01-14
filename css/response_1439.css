@@ -40,15 +40,18 @@
     /*----------
         Tabs
     ----------*/
-    .tabs
+    .tabs .btn
     {
-        padding: 0;
+        height: 92px;
     }
 
 
-    .tabs .btn div
+    .tab_content.active
     {
-        height: 92px;
+        padding-top: 24px;
+        padding-bottom: 48px;
+
+        border-radius: 0 0 32px 32px;
     }
 
 
@@ -418,10 +421,17 @@
     }
 
 
-    .services .service .arr .icon
+    .services .service .arr
     {
         width: 52px;
         height: 52px;
+    }
+
+
+    .services .service .arr .icon
+    {
+        width: 13px;
+        height: 18px;
     }
 
 

@@ -39,15 +39,15 @@
     /*----------
         Tabs
     ----------*/
-    .tabs
+    .tabs .btn
     {
-        margin-bottom: 28px;
+        height: 80px;
     }
 
 
-    .tabs .btn div
+    .tab_content.active
     {
-        height: 80px;
+        border-radius: 0 0 30px 30px;
     }
 
 
@@ -370,10 +370,17 @@
     }
 
 
-    .services .service .arr .icon
+    .services .service .arr
     {
         width: 44px;
         height: 44px;
+    }
+
+
+    .services .service .arr .icon
+    {
+        width: 11px;
+        height: 15px;
     }
 
 

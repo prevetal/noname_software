@@ -466,10 +466,20 @@
     }
 
 
-    .services .service .arr .icon
+    .services .service .arr
     {
         width: 24px;
         height: 24px;
+        padding-left: 1px;
+
+        border-width: 1px;
+    }
+
+
+    .services .service .arr .icon
+    {
+        width: 7px;
+        height: 10px;
     }
 
 

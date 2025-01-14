@@ -144,7 +144,7 @@ input[type=number]
 -------------------*/
 :root
 {
-    --bg: #e7e7e7;
+    --bg: rgba(248, 248, 248, .92);
     --scroll_width: 17px;
     --text_color: #343434;
     --font_size: 16px;
@@ -345,62 +345,20 @@ html.with-fancybox body.hide-scrollbar
 /*----------
     Tabs
 ----------*/
-.tabs
-{
-    margin-bottom: 32px;
-    padding: 8px 0;
-}
-
-
 .tabs .btn
 {
-    position: relative;
-
-    padding: 4px;
-}
-
-
-.tabs .btn:before
-{
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    left: 0;
-
-    display: block;
-
-    width: 100%;
-    height: 100%;
-
-    content: '';
-    transition: opacity .2s linear;
-    pointer-events: none;
-
-    opacity: 0;
-    border-radius: inherit;
-    border-radius: 20px;
-    background: linear-gradient(263deg, #00f 1.87%, #009 95.91%);
-}
-
-
-.tabs .btn div
-{
-    position: relative;
-    z-index: 2;
-
     display: flex;
     align-content: center;
     align-items: center;
     flex-wrap: wrap;
     justify-content: center;
 
-    height: 116px;
-    padding: 20px 28px;
+    height: 124px;
+    padding: 0 36px;
 
     transition: background .2s linear;
 
-    border-radius: 16px;
-    background: #e7e7e7;
+    border-radius: 20px 20px 0 0;
 }
 
 
@@ -413,33 +371,9 @@ html.with-fancybox body.hide-scrollbar
 }
 
 
-.tabs .btn img + img
+.tabs .btn.active
 {
-    display: none;
-}
-
-
-.tabs .btn:hover:before,
-.tabs .btn.active:before
-{
-    opacity: 1;
-}
-
-
-.tabs .btn.active div
-{
-    background: none;
-}
-
-
-.tabs .btn.active img
-{
-    display: none;
-}
-
-.tabs .btn.active img + img
-{
-    display: block;
+    background: rgba(204, 204, 204, .20);
 }
 
 
@@ -457,17 +391,21 @@ html.with-fancybox body.hide-scrollbar
     opacity: 0;
 }
 
+
 .tab_content.active
 {
     visibility: visible;
     overflow: visible;
 
     height: auto;
+    padding: 32px 0 74px;
 
-    transition: opacity .5s linear;
+    transition: opacity .2s linear;
     pointer-events: auto;
 
     opacity: 1;
+    border-radius: 0 0 50px 50px;
+    background: rgba(204, 204, 204, .20);
 }
 
 
@@ -981,7 +919,7 @@ header .order_btn .icon
 {
     display: block;
 
-    width: 9px;
+    width: 8px;
     height: 11px;
 }
 
@@ -1314,8 +1252,8 @@ header .order_btn:hover
     justify-content: center;
 
     width: 277px;
-    margin-top: 31px;
     height: 44px;
+    margin-top: 31px;
     margin-left: auto;
 
     text-decoration: none;
@@ -2509,6 +2447,12 @@ header .order_btn:hover
 /*-------------
     History
 -------------*/
+.history
+{
+    margin-bottom: 62px;
+}
+
+
 .history .swiper
 {
     overflow: visible !important;
@@ -3066,12 +3010,21 @@ header .order_btn:hover
     top: 0;
     right: 0;
 
-    display: block;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    width: 70px;
+    height: 70px;
+    padding-left: 2px;
 
     transition: background .2s linear;
     text-decoration: none;
 
     color: #00f;
+    border: 2px solid;
     border-radius: 50%;
 }
 
@@ -3080,10 +3033,8 @@ header .order_btn:hover
 {
     display: block;
 
-    width: 70px;
-    height: 70px;
-
-    border-radius: 50%;
+    width: 19px;
+    height: 26px;
 }
 
 
