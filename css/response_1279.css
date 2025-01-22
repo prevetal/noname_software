@@ -69,6 +69,12 @@
     /*---------------
         Page head
     ---------------*/
+    .page_head.big_gap .cont
+    {
+        gap: 80px;
+    }
+
+
     .breadcrumbs
     {
         font-size: 16px;
@@ -1455,6 +1461,257 @@
         font-size: 18px;
 
         padding: 10px 22px;
+    }
+
+
+
+    /*-------------------
+        Solution info
+    -------------------*/
+    .solution_info .anchors
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .solution_info .anchors .btn
+    {
+        font-size: 16px;
+
+        padding: 12px 24px;
+    }
+
+
+    .solution_info .data
+    {
+        padding: 48px 24px;
+
+        border-radius: 40px;
+    }
+
+
+    .solution_info .tabs
+    {
+        margin-bottom: 24px;
+
+        border-radius: 24px;
+    }
+
+
+    .solution_info .tabs .btn
+    {
+        font-size: 16px;
+
+        height: 40px;
+    }
+
+
+    .solution_info .section + .section
+    {
+        margin-top: 48px;
+        padding-top: 48px;
+    }
+
+
+    .solution_info .section .title
+    {
+        font-size: 26px;
+    }
+
+
+    .solution_info .section .info
+    {
+        width: calc(100% - 300px);
+
+        gap: 28px;
+    }
+
+
+    .solution_info .section .name
+    {
+        font-size: 18px;
+    }
+
+
+    .solution_info .section .sub_name
+    {
+        font-size: 18px;
+    }
+
+
+    .solution_info .section .desc
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .solution_info .section .image
+    {
+        border-radius: 30px;
+    }
+
+
+    .solution_info .section .big_title
+    {
+        margin-bottom: 28px;
+    }
+
+
+    .solution_info .section .desc ul
+    {
+        gap: 12px;
+    }
+
+
+    .solution_info .section .desc ul li
+    {
+        padding-left: 32px;
+    }
+
+
+    .solution_info .section .desc ul li .arrows svg
+    {
+        width: 6px;
+        height: 9px;
+    }
+
+
+    .solution_info .section .percents
+    {
+        margin-top: 40px;
+
+        gap: 24px 40px;
+    }
+
+
+    .solution_info .section .percents .label
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*-----------
+        Cases
+    -----------*/
+    .cases .block_head .title span
+    {
+        margin-top: 0;
+        margin-left: 200px;
+    }
+
+
+    .cases .image
+    {
+        width: 240px;
+
+        border-radius: 30px;
+    }
+
+
+    .cases .item
+    {
+        width: 300px;
+
+        border-radius: 30px;
+    }
+
+
+    .cases .item.big
+    {
+        width: calc(100% - 600px);
+    }
+
+
+    .cases .item .logo
+    {
+        width: 152px;
+    }
+
+
+    .cases .item .name
+    {
+        font-size: 16px;
+    }
+
+
+    .cases .item .link
+    {
+        padding-top: 16px;
+    }
+
+
+    .cases .item .link a
+    {
+        width: 148px;
+    }
+
+
+
+    /*------------------
+        Next product
+    ------------------*/
+    .next_product .cont
+    {
+        gap: 80px;
+    }
+
+
+    .next_product .title
+    {
+        font-size: 24px;
+
+        padding-left: 36px;
+    }
+
+
+    .next_product .title:before
+    {
+        top: 7px;
+
+        width: 16px;
+        height: 16px;
+    }
+
+
+    .next_product .all_link
+    {
+        width: 350px;
+    }
+
+
+    .next_product .all_link a
+    {
+        font-size: 16px;
+
+        height: 52px;
+    }
+
+
+    .next_product .name
+    {
+        width: 440px;
+    }
+
+
+    .next_product .link
+    {
+        width: 350px;
+    }
+
+
+    .next_product .link a
+    {
+        font-size: 28px;
+
+        padding-bottom: 10px;
+    }
+
+
+    .next_product .link .icon
+    {
+        width: 10px;
+        height: 14px;
     }
 
 

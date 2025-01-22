@@ -1728,6 +1728,176 @@
 
 
 
+    /*-------------------
+        Solution info
+    -------------------*/
+    .solution_info .anchors
+    {
+        width: 320px;
+        max-width: 100%;
+        margin-right: auto;
+        margin-bottom: 32px;
+        margin-left: auto;
+
+        gap: 8px;
+    }
+
+
+    .solution_info .anchors > *
+    {
+        width: 100%;
+    }
+
+
+    .solution_info .anchors .btn
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .solution_info .section .image
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .solution_info .section .big_title
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .solution_info .tabs
+    {
+        padding: 8px 20px;
+    }
+
+
+    .solution_info .tabs .btn
+    {
+        height: 28px;
+        padding: 0;
+
+        text-decoration: underline;
+    }
+
+
+    .solution_info .tabs .btn.active
+    {
+        text-decoration: none;
+
+        color: #00f;
+        background: none;
+        box-shadow: none;
+    }
+
+
+    .solution_info .section .title
+    {
+        font-size: 20px;
+
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+
+    .solution_info .section .info
+    {
+        width: 100%;
+    }
+
+
+
+    /*-----------
+        Cases
+    -----------*/
+    .cases .block_head .title span
+    {
+        margin-left: 124px;
+    }
+
+
+    .cases .row
+    {
+        margin-left: 0;
+    }
+
+
+    .cases .row > *
+    {
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+
+    .cases .image
+    {
+        width: 100%;
+        height: 188px;
+    }
+
+
+    .cases .item,
+    .cases .item.big
+    {
+        width: 100%;
+    }
+
+
+    .cases .item .name
+    {
+        font-size: 20px;
+    }
+
+
+    .cases .item .link
+    {
+        padding-top: 16px;
+    }
+
+
+    .cases .item .link a
+    {
+        width: 180px;
+    }
+
+
+
+    /*------------------
+        Next product
+    ------------------*/
+    .next_product .cont
+    {
+        gap: 48px;
+    }
+
+
+    .next_product .title
+    {
+        display: none;
+    }
+
+
+    .next_product .all_link
+    {
+        width: 100%;
+    }
+
+
+    .next_product .name
+    {
+        width: 100%;
+    }
+
+
+    .next_product .link
+    {
+        width: 253px;
+        margin-top: 52px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

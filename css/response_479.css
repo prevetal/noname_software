@@ -976,6 +976,58 @@
 
 
 
+    /*-------------------
+        Solution info
+    -------------------*/
+    .solution_info .anchors
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .solution_info .section .sub_name br
+    {
+        display: none;
+    }
+
+
+    .solution_info .section .image
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .solution_info .section .big_title
+    {
+        margin-bottom: 20px;
+    }
+
+
+    .solution_info .tabs .btn
+    {
+        font-size: 10px;
+
+        height: 20px;
+    }
+
+
+    .solution_info .section .title
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*-----------
+        Cases
+    -----------*/
+    .cases .block_head .title span
+    {
+        margin-left: 92px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

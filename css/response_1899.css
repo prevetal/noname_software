@@ -230,6 +230,12 @@
     }
 
 
+    .page_head.big_gap .cont
+    {
+        gap: 120px;
+    }
+
+
     .page_head .back
     {
         font-size: 16px;
@@ -1917,6 +1923,292 @@
         font-size: 24px;
 
         padding: 14px 30px;
+    }
+
+
+
+    /*-------------------
+        Solution info
+    -------------------*/
+    .solution_info .anchors
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .solution_info .anchors .btn
+    {
+        font-size: 20px;
+
+        padding: 22px 46px;
+    }
+
+
+    .solution_info .data
+    {
+        padding: 60px 40px;
+
+        border-radius: 60px;
+    }
+
+
+    .solution_info .tabs
+    {
+        margin-bottom: 40px;
+
+        border-radius: 40px;
+    }
+
+
+    .solution_info .tabs .btn
+    {
+        font-size: 20px;
+
+        height: 48px;
+        padding: 0 40px;
+
+        border-radius: 20px;
+    }
+
+
+    .solution_info .tabs .btn.active
+    {
+        border-radius: 30px;
+    }
+
+
+    .solution_info .section + .section
+    {
+        margin-top: 60px;
+        padding-top: 60px;
+    }
+
+
+    .solution_info .section .title
+    {
+        font-size: 40px;
+    }
+
+
+    .solution_info .section .info
+    {
+        width: 800px;
+
+        gap: 32px;
+    }
+
+
+    .solution_info .section .name
+    {
+        font-size: 24px;
+    }
+
+
+    .solution_info .tab_content .name
+    {
+        right: 20px;
+    }
+
+
+    .solution_info .section .sub_name
+    {
+        font-size: 24px;
+    }
+
+
+    .solution_info .section .desc
+    {
+        font-size: 18px;
+    }
+
+
+    .solution_info .section .image
+    {
+        margin-bottom: 60px;
+
+        border-radius: 40px;
+    }
+
+
+    .solution_info .section .big_title
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .solution_info .section .desc ul li
+    {
+        padding-left: 40px;
+    }
+
+
+    .solution_info .section .desc ul li .arrows
+    {
+        top: 8px;
+    }
+
+
+    .solution_info .section .desc ul li .arrows svg
+    {
+        width: 8px;
+        height: 11px;
+    }
+
+
+    .solution_info .section .percents
+    {
+        margin-top: 60px;
+
+        gap: 32px 60px;
+    }
+
+
+    .solution_info .section .percents .label
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*-----------
+        Cases
+    -----------*/
+    .cases .block_head .title span
+    {
+        margin-top: 8px;
+        margin-left: 360px;
+    }
+
+
+    .cases .image
+    {
+        width: 320px;
+
+        border-radius: 40px;
+    }
+
+
+    .cases .item
+    {
+        width: 480px;
+        padding: 32px;
+
+        border-radius: 40px;
+    }
+
+
+    .cases .item.big
+    {
+        width: calc(100% - 860px);
+    }
+
+
+    .cases .item .logo
+    {
+        width: 200px;
+        height: 40px;
+        margin-bottom: 24px;
+    }
+
+
+    .cases .item .name
+    {
+        font-size: 20px;
+    }
+
+
+    .cases .item .desc
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .cases .item .link
+    {
+        padding-top: 24px;
+    }
+
+
+    .cases .item .link a
+    {
+        font-size: 16px;
+
+        width: 200px;
+        padding: 8px 12px;
+    }
+
+
+
+    /*------------------
+        Next product
+    ------------------*/
+    .next_product
+    {
+        padding: 48px 0 60px;
+    }
+
+
+    .next_product .cont
+    {
+        gap: 120px;
+    }
+
+
+    .next_product .title
+    {
+        font-size: 32px;
+    }
+
+
+    .next_product .title:before
+    {
+        top: 7px;
+
+        width: 24px;
+        height: 24px;
+    }
+
+
+    .next_product .all_link
+    {
+        width: 480px;
+    }
+
+
+    .next_product .all_link a
+    {
+        font-size: 20px;
+
+        height: 60px;
+    }
+
+
+    .next_product .name
+    {
+        width: 560px;
+    }
+
+
+    .next_product .link
+    {
+        width: 480px;
+    }
+
+
+    .next_product .link a
+    {
+        font-size: 40px;
+
+        padding-bottom: 17px;
+
+        border-width: 3px;
+    }
+
+
+    .next_product .link .icon
+    {
+        width: 18px;
+        height: 24px;
     }
 
 

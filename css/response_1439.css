@@ -164,6 +164,12 @@
     }
 
 
+    .page_head.big_gap .cont
+    {
+        gap: 100px;
+    }
+
+
     .page_head .back
     {
         font-size: var(--font_size);
@@ -1445,7 +1451,9 @@
     ------------------*/
     .service_head
     {
-        padding-bottom: 68px;border-radius: 0 0 60px 60px;
+        padding-bottom: 68px;
+
+        border-radius: 0 0 60px 60px;
     }
 
 
@@ -1646,6 +1654,267 @@
         font-size: 20px;
 
         padding: 12px 28px;
+    }
+
+
+
+    /*-------------------
+        Solution info
+    -------------------*/
+    .solution_info .anchors
+    {
+        margin-bottom: 48px;
+    }
+
+
+    .solution_info .anchors .btn
+    {
+        font-size: 18px;
+
+        padding: 16px 36px;
+    }
+
+
+    .solution_info .anchors .btn .icon
+    {
+        width: 10px;
+        height: 14px;
+    }
+
+
+    .solution_info .data
+    {
+        padding: 60px 24px;
+
+        border-radius: 48px;
+    }
+
+
+    .solution_info .tabs
+    {
+        margin-bottom: 32px;
+
+        border-radius: 32px;
+    }
+
+
+    .solution_info .tabs .btn
+    {
+        font-size: 18px;
+    }
+
+
+    .solution_info .section .title
+    {
+        font-size: 32px;
+    }
+
+
+    .solution_info .section .info
+    {
+        gap: 32px;
+    }
+
+
+    .solution_info .section .item
+    {
+        gap: 12px;
+    }
+
+
+    .solution_info .section .name
+    {
+        font-size: 20px;
+    }
+
+
+    .solution_info .tab_content .name
+    {
+        right: 0;
+    }
+
+
+    .solution_info .section .sub_name
+    {
+        font-size: 20px;
+    }
+
+
+    .solution_info .section .desc
+    {
+        font-size: 16px;
+    }
+
+
+    .solution_info .section .image
+    {
+        margin-bottom: 48px;
+
+        border-radius: 32px;
+    }
+
+
+    .solution_info .section .big_title
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .solution_info .section .desc ul li .arrows
+    {
+        top: 4px;
+    }
+
+
+    .solution_info .section .percents
+    {
+        margin-top: 48px;
+
+        gap: 24px 48px;
+    }
+
+
+    .solution_info .section .percents .label
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*-----------
+        Cases
+    -----------*/
+    .cases .block_head .title span
+    {
+        margin-top: 4px;
+        margin-left: 280px;
+    }
+
+
+    .cases .image
+    {
+        width: 260px;
+
+        border-radius: 32px;
+    }
+
+
+    .cases .item
+    {
+        width: 400px;
+        padding: 24px;
+
+        border-radius: 32px;
+    }
+
+
+    .cases .item.big
+    {
+        width: calc(100% - 720px);
+    }
+
+
+    .cases .item .logo
+    {
+        width: 172px;
+        height: 32px;
+        margin-bottom: 20px;
+    }
+
+
+    .cases .item .name
+    {
+        font-size: 18px;
+    }
+
+
+    .cases .item .link
+    {
+        padding-top: 20px;
+    }
+
+
+    .cases .item .link a
+    {
+        font-size: var(--font_size);
+
+        width: 168px;
+    }
+
+
+
+    /*------------------
+        Next product
+    ------------------*/
+    .next_product
+    {
+        padding: 48px 0;
+    }
+
+
+    .next_product .cont
+    {
+        gap: 100px;
+    }
+
+
+    .next_product .title
+    {
+        font-size: 28px;
+
+        padding-left: 40px;
+    }
+
+
+    .next_product .title:before
+    {
+        top: 6px;
+
+        width: 20px;
+        height: 20px;
+    }
+
+
+    .next_product .all_link
+    {
+        width: 400px;
+    }
+
+
+    .next_product .all_link a
+    {
+        font-size: 18px;
+
+        height: 56px;
+    }
+
+
+    .next_product .name
+    {
+        width: 480px;
+    }
+
+
+    .next_product .link
+    {
+        width: 400px;
+    }
+
+
+    .next_product .link a
+    {
+        font-size: 32px;
+
+        padding-bottom: 14px;
+
+        border-width: 2px;
+    }
+
+
+    .next_product .link .icon
+    {
+        width: 13px;
+        height: 17px;
     }
 
 
