@@ -1,9 +1,25 @@
 <svg width="0" height="0" class="hidden">
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46 46" id="ic_accord">
+    <path d="M25.5556 2.55556C25.5556 3.96695 24.4114 5.11111 23 5.11111C21.5886 5.11111 20.4444 3.96695 20.4444 2.55556C20.4444 1.14416 21.5886 0 23 0C24.4114 0 25.5556 1.14416 25.5556 2.55556Z" fill="currentColor"></path>
+    <path d="M25.5556 12.7778C25.5556 14.1892 24.4114 15.3333 23 15.3333C21.5886 15.3333 20.4444 14.1892 20.4444 12.7778C20.4444 11.3664 21.5886 10.2222 23 10.2222C24.4114 10.2222 25.5556 11.3664 25.5556 12.7778Z" fill="currentColor"></path>
+    <path d="M25.5556 23C25.5556 24.4114 24.4114 25.5556 23 25.5556C21.5886 25.5556 20.4444 24.4114 20.4444 23C20.4444 21.5886 21.5886 20.4444 23 20.4444C24.4114 20.4444 25.5556 21.5886 25.5556 23Z" fill="currentColor"></path>
+    <path d="M35.7778 23C35.7778 24.4114 34.6336 25.5556 33.2222 25.5556C31.8108 25.5556 30.6667 24.4114 30.6667 23C30.6667 21.5886 31.8108 20.4444 33.2222 20.4444C34.6336 20.4444 35.7778 21.5886 35.7778 23Z" fill="currentColor"></path>
+    <path d="M46 23C46 24.4114 44.8558 25.5556 43.4444 25.5556C42.0331 25.5556 40.8889 24.4114 40.8889 23C40.8889 21.5886 42.0331 20.4444 43.4444 20.4444C44.8558 20.4444 46 21.5886 46 23Z" fill="currentColor"></path>
+    <path d="M15.3333 23C15.3333 24.4114 14.1892 25.5556 12.7778 25.5556C11.3664 25.5556 10.2222 24.4114 10.2222 23C10.2222 21.5886 11.3664 20.4444 12.7778 20.4444C14.1892 20.4444 15.3333 21.5886 15.3333 23Z" fill="currentColor"></path>
+    <path d="M5.11111 23C5.11111 24.4114 3.96695 25.5556 2.55556 25.5556C1.14416 25.5556 0 24.4114 0 23C0 21.5886 1.14416 20.4444 2.55556 20.4444C3.96695 20.4444 5.11111 21.5886 5.11111 23Z" fill="currentColor"></path>
+    <path d="M25.5556 33.2222C25.5556 34.6336 24.4114 35.7778 23 35.7778C21.5886 35.7778 20.4444 34.6336 20.4444 33.2222C20.4444 31.8108 21.5886 30.6667 23 30.6667C24.4114 30.6667 25.5556 31.8108 25.5556 33.2222Z" fill="currentColor"></path>
+    <path d="M25.5556 43.4444C25.5556 44.8558 24.4114 46 23 46C21.5886 46 20.4444 44.8558 20.4444 43.4444C20.4444 42.0331 21.5886 40.8889 23 40.8889C24.4114 40.8889 25.5556 42.0331 25.5556 43.4444Z" fill="currentColor"></path>
+  </symbol>
   <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19 26" id="ic_arr_hor">
     <path d="M2 24L5.62963 21M5.62963 5L2 2M12.3704 10L16 13L12.3704 16" stroke="currentColor" stroke-width="3" stroke-linecap="round"></path>
   </symbol>
   <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 13 8" id="ic_arr_ver">
     <path d="M1 1L6.5 6L12 1" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"></path>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 14" id="ic_arrows_hor">
+    <path d="M16 1L23 7L16 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-dasharray="20 20"></path>
+    <path d="M1 1L8 7L1 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-dasharray="20 20"></path>
+    <path d="M31 1L38 7L31 13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-dasharray="20 20"></path>
   </symbol>
   <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 49 49" id="ic_close">
     <path d="M47 2L39.2433 9.75672M2 2L9.75672 9.75672M14.6047 14.6047L24.5 24.5M34.3953 14.6047L24.5 24.5M24.5 24.5L14.6047 34.3953M24.5 24.5L34.3953 34.3953M9.75672 39.2433L2 47M39.2433 39.2433L47 47" stroke="currentColor" stroke-width="4" stroke-linejoin="round"></path>
@@ -35,5 +51,9 @@
     <circle cx="9" cy="9" r="3" fill="currentColor"></circle>
     <circle cx="27" cy="3" r="3" fill="currentColor"></circle>
     <circle cx="27" cy="27" r="3" fill="currentColor"></circle>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 20" id="ic_upload">
+    <path d="M8 -3.98812e-09L8 15M8 15L13.5 8.57143M8 15L2.5 8.57143" stroke="currentColor" stroke-width="2"></path>
+    <path d="M15.5 19L0.5 19" stroke="currentColor" stroke-width="2"></path>
   </symbol>
 </svg>

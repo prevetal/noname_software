@@ -4,11 +4,11 @@ BODY = document.getElementsByTagName('body')[0]
 
 
 document.addEventListener('DOMContentLoaded', function () {
-	// History
-	let historyTabsSlider = document.querySelector('.history .tabs.swiper')
+	// Stories
+	let storiesTabsSlider = document.querySelector('.stories .swiper.tabs')
 
-	if (historyTabsSlider) {
-		new Swiper('.history .tabs.swiper', {
+	if (storiesTabsSlider) {
+		new Swiper('.stories .swiper.tabs', {
 			loop: false,
 			speed: 500,
 			watchSlidesProgress: true,
@@ -18,6 +18,81 @@ document.addEventListener('DOMContentLoaded', function () {
 			slidesPerView: 'auto'
 		})
 	}
+
+
+	// Products slider
+	const productsSliders = [],
+		products = document.querySelectorAll('.products .swiper')
+
+	products.forEach((el, i) => {
+		el.classList.add('products_s' + i)
+
+		let options = {
+			loop: false,
+			speed: 500,
+			watchSlidesProgress: true,
+			slideActiveClass: 'active',
+			slideVisibleClass: 'visible',
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev'
+			},
+			lazy: true,
+			breakpoints: {
+				0: {
+					spaceBetween: 20,
+					slidesPerView: 1
+				},
+				1280: {
+					spaceBetween: 20,
+					slidesPerView: 2
+				}
+			}
+		}
+
+		productsSliders.push(new Swiper('.products_s' + i, options))
+	})
+
+
+	// Clients slider
+	const clientsSliders = [],
+		clients = document.querySelectorAll('.clients .swiper')
+
+	clients.forEach((el, i) => {
+		el.classList.add('clients_s' + i)
+
+		let options = {
+			loop: false,
+			speed: 500,
+			spaceBetween: 20,
+			watchSlidesProgress: true,
+			slideActiveClass: 'active',
+			slideVisibleClass: 'visible',
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev'
+			},
+			lazy: true,
+			breakpoints: {
+				0: {
+					slidesPerView: 1,
+					grid: {
+						rows: 1,
+						fill: 'row'
+					}
+				},
+				1280: {
+					slidesPerView: 4,
+					grid: {
+						rows: 2,
+						fill: 'row'
+					}
+				}
+			}
+		}
+
+		clientsSliders.push(new Swiper('.clients_s' + i, options))
+	})
 
 
 	// Fancybox
@@ -86,6 +161,30 @@ document.addEventListener('DOMContentLoaded', function () {
 				mask: '+{7} (000) 000 00-00',
 				lazy: true
 			})
+		})
+	}
+
+
+	// Select file
+	const fileInputs = document.querySelectorAll('form input[type=file]')
+
+	if (fileInputs) {
+		fileInputs.forEach(el => {
+			el.addEventListener('change', () => el.closest('.file').querySelector('label span').innerText = el.value)
+		})
+	}
+
+
+	// Custom select - Nice select
+	const selects = document.querySelectorAll('select:not(.skip)')
+
+	if (selects) {
+		selects.forEach(el => {
+			NiceSelect.bind(el, {
+				placeholder: el.getAttribute('data-placeholder')
+			})
+
+			el.addEventListener('change', () => el.classList.add('selected'))
 		})
 	}
 
@@ -184,6 +283,37 @@ document.addEventListener('DOMContentLoaded', function () {
 
 	// Установка ширины стандартного скроллбара
 	document.documentElement.style.setProperty('--scroll_width', widthScroll() + 'px')
+
+
+	// Accordion
+	$('body').on('click', '.accordion .accordion_item .head', function(e) {
+		e.preventDefault()
+
+		let item = $(this).closest('.accordion_item'),
+			accordion = $(this).closest('.accordion')
+
+		if (item.hasClass('active')) {
+			item.removeClass('active').find('.data').slideUp(300)
+		} else {
+			accordion.find('.accordion_item').removeClass('active')
+			accordion.find('.data').slideUp(300)
+
+			item.addClass('active').find('.data').slideDown(300)
+		}
+	})
+
+
+	// Submit form
+	$('#order_modal form, .order_form form').submit(function(e) {
+		e.preventDefault()
+
+		Fancybox.close()
+
+		Fancybox.show([{
+			src: document.getElementById('order_success_modal'),
+			type: 'inline'
+		}])
+	})
 })
 
 

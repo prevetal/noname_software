@@ -36,22 +36,6 @@
 
 
 
-    /*----------
-        Tabs
-    ----------*/
-    .tabs .btn
-    {
-        height: 80px;
-    }
-
-
-    .tab_content.active
-    {
-        border-radius: 0 0 30px 30px;
-    }
-
-
-
     /*-----------------
         Mob. header
     -----------------*/
@@ -72,9 +56,40 @@
 
 
 
+    /*---------------
+        Page head
+    ---------------*/
+    .breadcrumbs
+    {
+        font-size: 16px;
+    }
+
+
+    .page_title
+    {
+        font-size: 64px;
+    }
+
+
+    .page_title .span2
+    {
+        margin-left: 132px;
+    }
+
+
+
     /*----------------
         Block head
     ----------------*/
+    .block_head .sub_title
+    {
+        font-size: 30px;
+
+        width: 600px;
+        margin-top: 24px;
+    }
+
+
     .block_head .all_link
     {
         margin-top: 16px;
@@ -94,6 +109,12 @@
     /*------------------
         Form elements
     ------------------*/
+    .form .file label
+    {
+        font-size: 16px;
+    }
+
+
     .form .submit
     {
         padding-top: 32px;
@@ -243,59 +264,71 @@
 
 
     /*-------------
-        History
+        Stories
     -------------*/
-    .history .item
+    .stories .tabs .btn
+    {
+        height: 80px;
+    }
+
+
+    .stories .tab_content.active
+    {
+        border-radius: 0 0 30px 30px;
+    }
+
+
+    .stories .grid .item
     {
         border-radius: 30px;
     }
 
 
-    .history .item1
+    .stories .grid .item1
     {
         width: 420px;
     }
 
 
-    .history .item1 .title
+    .stories .grid .item1 .title
     {
         font-size: 22px;
     }
 
 
-    .history .item1 .desc
+    .stories .grid .item1 .desc
     {
         width: 320px;
     }
 
 
-    .history .item2
+    .stories .grid .item2
     {
         width: 260px;
         padding: 24px;
     }
 
 
-    .history .item3
+    .stories .grid .item3
     {
         width: calc(100% - 720px);
     }
 
 
-    .history .item4
+    .stories .grid .item4
     {
         width: calc(100% - 500px);
     }
 
 
-    .history .item5
+    .stories .grid .item5
     {
         width: 480px;
         padding: 40px 24px;
     }
 
 
-    .history .quote > .icon
+    .stories .grid .quote > .icon
     {
         width: 52px;
         height: 24px;
@@ -303,13 +336,13 @@
     }
 
 
-    .history .quote .text
+    .stories .grid .quote .text
     {
         font-size: 22px;
     }
 
 
-    .history .quote .author
+    .stories .grid .quote .author
     {
         font-size: 16px;
 
@@ -512,6 +545,480 @@
         padding: 40px;
 
         border-radius: 30px;
+    }
+
+
+
+    /*------------------
+        Terms of use
+    ------------------*/
+    .terms_of_use .page_title span
+    {
+        margin-left: 300px;
+    }
+
+
+    .terms_of_use .data
+    {
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+
+    .terms_of_use .bg
+    {
+        top: -20px;
+
+        width: 380px;
+        margin-right: -588px;
+    }
+
+
+    .terms_of_use .bg2
+    {
+        display: none;
+    }
+
+
+
+    /*----------------
+        Error info
+    ----------------*/
+    .error_info .cont
+    {
+        padding-top: 96px;
+        padding-bottom: 220px;
+    }
+
+
+    .error_info .title
+    {
+        width: 704px;
+    }
+
+
+    .error_info .title > *:nth-child(2)
+    {
+        padding-left: 88px;
+    }
+
+
+    .error_info .title .link
+    {
+        font-size: 16px;
+
+        order: 3;
+
+        height: 42px;
+        margin-top: 21px;
+        margin-left: auto;
+        padding: 0 32px;
+
+        gap: 16px;
+    }
+
+
+    .error_info .title .link .icon
+    {
+        width: 10px;
+        height: 14px;
+    }
+
+
+    .error_info .title .link + span
+    {
+        display: block;
+
+        width: 100%;
+        margin-top: 0;
+    }
+
+
+    .error_info .code
+    {
+        top: 40px;
+
+        margin-right: -348px;
+    }
+
+
+    .error_info .code .label
+    {
+        font-size: 32px;
+    }
+
+
+    .error_info .code .val
+    {
+        font-size: 70px;
+    }
+
+
+    .error_info .bg
+    {
+        top: 0;
+        left: 80px;
+
+        width: 440px;
+    }
+
+
+
+    /*-----------------------
+        Zoom presentation
+    -----------------------*/
+    .zoom_presentation .btn
+    {
+        font-size: 16px;
+
+        width: 360px;
+        height: 52px;
+    }
+
+
+
+    /*-------------
+        Stories
+    -------------*/
+    .stories .head .count
+    {
+        font-size: var(--font_size);
+
+        margin-left: 0;
+    }
+
+
+    .stories .list .row
+    {
+        margin-bottom: -20px;
+    }
+
+
+    .stories .list .row > *
+    {
+        width: calc(33.333% - 20px);
+        margin-bottom: 20px;
+    }
+
+
+
+    /*----------------
+        Story info
+    ----------------*/
+    .story_info .head
+    {
+        border-radius: 0 0 40px 40px;
+    }
+
+
+    .story_info .data
+    {
+        padding: 40px 0;
+
+        border-radius: 40px;
+    }
+
+
+    .story_info .data .logo
+    {
+        width: 240px;
+        height: 48px;
+    }
+
+
+    .story_info .data .features
+    {
+        gap: 16px;
+    }
+
+
+    .story_info .data .features > *
+    {
+        font-size: 16px;
+
+        border-radius: 24px;
+    }
+
+
+    .story_info .data .features > *.fixed_w
+    {
+        width: 240px;
+    }
+
+
+    .story_info .data .desc
+    {
+        font-size: 16px;
+    }
+
+
+    .story_info .quote .icon
+    {
+        width: 48px;
+        margin-bottom: 20px;
+    }
+
+
+    .story_info .quote .text
+    {
+        font-size: 22px;
+    }
+
+
+    .story_info .quote .author
+    {
+        font-size: 16px;
+
+        margin-top: 20px;
+    }
+
+
+    .story_info .quote .post
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .story_info .quote .image
+    {
+        width: calc(50% + 24px);
+
+        border-radius: 28px 0 0 28px;
+    }
+
+
+
+    .story_info .info .name
+    {
+        font-size: 24px;
+    }
+
+
+    .story_info .info .items
+    {
+        font-size: 18px;
+    }
+
+
+    .story_info .info .items > *
+    {
+        padding-left: 48px;
+    }
+
+
+    .story_info .info .items .icon
+    {
+        top: 8px;
+
+        width: 28px;
+        height: 10px;
+    }
+
+
+
+    .story_info .download a
+    {
+        font-size: 22px;
+
+        width: 440px;
+        padding: 12px;
+
+        border-radius: 28px;
+    }
+
+
+
+    /*--------------------
+        Vacancies head
+    --------------------*/
+    .vacancies_head
+    {
+        min-height: 460px;
+        padding-bottom: 40px;
+
+        border-radius: 0 0 48px 48px;
+    }
+
+
+    .vacancies_head .text
+    {
+        font-size: 16px;
+
+        width: calc(100% - 504px);
+
+        border-radius: 28px;
+    }
+
+
+    .vacancies_head .accredited
+    {
+        width: 480px;
+
+        border-radius: 28px;
+    }
+
+
+    .vacancies_head .accredited .title
+    {
+        font-size: 18px;
+
+        width: 324px;
+    }
+
+
+    .vacancies_head .accredited .logos
+    {
+        margin-top: 28px;
+    }
+
+
+    .vacancies_head .accredited .logos img
+    {
+        height: 24px;
+    }
+
+
+    .vacancies_head .accredited .logos > * + * img
+    {
+        height: 23px;
+    }
+
+
+    .vacancies_head .accredited .link
+    {
+        width: 208px;
+    }
+
+
+
+    /*---------------
+        Join team
+    ---------------*/
+    .join_team .block_head .title
+    {
+        gap: 0;
+    }
+
+
+    .join_team .block_head .title span
+    {
+        margin-left: 320px;
+    }
+
+
+    .join_team .item
+    {
+        min-height: 190px;
+        padding: 20px 16px;
+
+        border-radius: 28px;
+    }
+
+
+    .join_team .item .icon
+    {
+        height: 48px;
+        margin-bottom: 16px;
+    }
+
+
+    .join_team .item .name
+    {
+        font-size: 16px;
+    }
+
+
+    .join_team .item .desc
+    {
+        font-size: var(--font_size);
+
+        margin-top: 12px;
+    }
+
+
+
+    /*---------------
+        Vacancies
+    ---------------*/
+    .vacancies .categories
+    {
+        margin-bottom: 40px;
+
+        gap: 20px;
+    }
+
+
+    .vacancies .categories .btn
+    {
+        font-size: 18px;
+
+        padding: 9px 21px;
+    }
+
+
+    .vacancies .list
+    {
+        gap: 32px;
+    }
+
+
+    .vacancies .vacancy .name
+    {
+        font-size: 24px;
+    }
+
+
+    .vacancies .vacancy .tags > *
+    {
+        font-size: 16px;
+
+        min-width: 0;
+        padding: 4px 20px;
+    }
+
+
+    .vacancies .vacancy .btns
+    {
+        width: 251px;
+
+        gap: 8px;
+    }
+
+
+    .vacancies .vacancy .btns .btn
+    {
+        height: 36px;
+    }
+
+
+
+    /*------------
+        Career
+    ------------*/
+    .career .empty .link a
+    {
+        font-size: 16px;
+
+        padding: 12px 80px;
+
+        border-radius: 30px;
+    }
+
+
+    .career .empty .socials .icon
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+
+
+    .career .bg
+    {
+        top: -104px;
+
+        width: 360px;
+        margin-right: -560px;
     }
 
 
