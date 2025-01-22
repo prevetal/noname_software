@@ -1185,6 +1185,31 @@
 
 
 
+    .vacancies .all_link
+    {
+        margin-top: 32px;
+    }
+
+
+    .vacancies .all_link a
+    {
+        font-size: var(--font_size);
+
+        padding: 12px 48px;
+    }
+
+
+    .vacancies .all_link .icon
+    {
+        position: relative;
+        top: -1px;
+
+        width: 10px;
+        height: 14px;
+    }
+
+
+
     /*------------
         Career
     ------------*/
@@ -1222,6 +1247,83 @@
 
         width: 298px;
         margin-right: -468px;
+    }
+
+
+
+    /*------------------
+        Vacancy info
+    ------------------*/
+    .vacancy_info .data .title
+    {
+        font-size: 20px;
+    }
+
+
+    .vacancy_info .data .items
+    {
+        font-size: var(--font_size);
+
+        gap: 12px;
+    }
+
+
+    .vacancy_info .data .items > *
+    {
+        background-position: 0 3px;
+    }
+
+
+    .vacancy_info .data .items b
+    {
+        margin-right: 8px;
+    }
+
+
+
+    .vacancy_info .row
+    {
+        margin-bottom: -60px;
+        margin-left: -24px;
+    }
+
+
+    .vacancy_info .row > *
+    {
+        width: calc(50% - 24px);
+        margin-bottom: 60px;
+        margin-left: 24px;
+    }
+
+
+    .vacancy_info .row > *.big
+    {
+        width: calc(100% - 24px);
+    }
+
+
+    .vacancy_info .item .items
+    {
+        font-size: 18px;
+    }
+
+
+    .vacancy_info .item .items > *
+    {
+        padding-left: 40px;
+    }
+
+
+    .vacancy_info .item .items .arrows
+    {
+        top: 9px;
+    }
+
+
+    .vacancy_info .item .items .arrows svg
+    {
+        width: 6px;
+        height: 9px;
     }
 
 

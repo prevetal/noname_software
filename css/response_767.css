@@ -201,7 +201,10 @@
     /*----------------
         Block head
     ----------------*/
-    .block_head
+    .block_head,
+    .block_head.small_m,
+    .block_head.middle_m,
+    .block_head.big_m
     {
         margin-bottom: 24px;
     }
@@ -835,7 +838,8 @@
     /*----------------
         Order form
     ----------------*/
-    .order_form .block_head.margin {
+    .order_form .block_head.margin
+    {
         margin-bottom: 40px;
     }
 
@@ -1285,6 +1289,13 @@
 
 
 
+    .vacancies .all_link .icon
+    {
+        top: 0;
+    }
+
+
+
     /*------------
         Career
     ------------*/
@@ -1330,6 +1341,64 @@
 
         width: 180px;
         margin-right: -280px;
+    }
+
+
+
+    /*------------------
+        Vacancy info
+    ------------------*/
+    .vacancy_info .data .info
+    {
+        width: 100%;
+    }
+
+
+    .vacancy_info .data .title
+    {
+        font-size: 18px;
+    }
+
+
+    .vacancy_info .data .items
+    {
+        gap: 8px;
+    }
+
+
+    .vacancy_info .data .btns
+    {
+        margin-top: 20px;
+        margin-left: auto;
+    }
+
+
+
+    .vacancy_info .row
+    {
+        margin-bottom: -40px;
+        margin-left: 0;
+    }
+
+
+    .vacancy_info .row > *,
+    .vacancy_info .row > *.big
+    {
+        width: 100%;
+        margin-bottom: 40px;
+        margin-left: 0;
+    }
+
+
+    .vacancy_info .item .items
+    {
+        font-size: 16px;
+    }
+
+
+    .vacancy_info .item .items .arrows
+    {
+        top: 6px;
     }
 
 

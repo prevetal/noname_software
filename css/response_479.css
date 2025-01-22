@@ -745,6 +745,13 @@
 
 
 
+    .vacancies .all_link a
+    {
+        padding: 12px 28px;
+    }
+
+
+
     /*------------
         Career
     ------------*/
@@ -773,6 +780,44 @@
 
         width: 136px;
         margin-right: -224px;
+    }
+
+
+
+    /*------------------
+        Vacancy info
+    ------------------*/
+    .vacancy_info .data .title
+    {
+        font-size: 16px;
+
+        margin-bottom: 16px;
+    }
+
+
+    .vacancy_info .data .btns
+    {
+        margin-top: 16px;
+    }
+
+
+
+    .vacancy_info .row
+    {
+        margin-bottom: -32px;
+    }
+
+
+    .vacancy_info .row > *,
+    .vacancy_info .row > *.big
+    {
+        margin-bottom: 32px;
+    }
+
+
+    .vacancy_info .item .items
+    {
+        gap: 8px;
     }
 
 
