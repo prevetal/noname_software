@@ -65,6 +65,29 @@
 
 
 
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item .head
+    {
+        padding: 12px 52px 12px 0;
+    }
+
+
+    .accordion_item .head .title
+    {
+        font-size: 18px;
+    }
+
+
+    .accordion_item .head .icon
+    {
+        width: 24px;
+        height: 24px;
+    }
+
+
+
     /*-----------------
         Mob. header
     -----------------*/
@@ -680,7 +703,7 @@
     /*--------------
         Services
     --------------*/
-    .services
+    .services:not(.no_pad)
     {
         padding: 0;
     }
@@ -698,6 +721,12 @@
     .services .head .block_head .title span
     {
         margin-top: -4px;
+        margin-left: 64px;
+    }
+
+
+    .services .head .block_head .title.small span
+    {
         margin-left: 64px;
     }
 
@@ -1512,6 +1541,189 @@
     .feedback .bg
     {
         display: none;
+    }
+
+
+
+    /*------------------
+        Service head
+    ------------------*/
+    .service_head .page_head
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .service_head .data .title
+    {
+        font-size: 18px;
+
+        width: 100%;
+    }
+
+
+    .service_head .data .link
+    {
+        margin-top: 16px;
+        margin-left: 0;
+    }
+
+
+    .service_head .data .link a
+    {
+        padding: 12px 48px;
+    }
+
+
+    .service_head .info
+    {
+        align-content: stretch;
+        align-items: stretch;
+
+        margin-top: 24px;
+        padding: 0;
+
+        border-radius: 0;
+        background: none;
+
+                backdrop-filter: none;
+        -webkit-backdrop-filter: none;
+    }
+
+
+    .service_head .info .item
+    {
+        width: 100%;
+    }
+
+
+    .service_head .info .item + .item
+    {
+        margin-top: 16px;
+    }
+
+
+
+    /*--------------------
+        Service brands
+    --------------------*/
+    .service_brands .block_head .title span
+    {
+        margin-left: 92px;
+    }
+
+
+    .service_brands .row
+    {
+        margin-bottom: -10px;
+        margin-left: -10px;
+    }
+
+
+    .service_brands .row > *
+    {
+        width: calc(33.333% - 10px);
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+
+    .service_brands .item
+    {
+        padding: 24px;
+    }
+
+
+
+    /*------------------------
+        Service principles
+    ------------------------*/
+    .service_principles .block_head .title span
+    {
+        margin-left: 92px;
+    }
+
+
+
+    /*----------------------
+        Service projects
+    ----------------------*/
+    .service_projects .block_head .title span
+    {
+        margin-left: 92px;
+    }
+
+
+    .service_projects .project .logo
+    {
+        width: 122px;
+        height: 30px;
+    }
+
+
+    .service_projects .project .image
+    {
+        margin-top: 12px;
+        padding: 16px;
+
+        gap: 16px;
+    }
+
+
+    .service_projects .project .tags .items
+    {
+        gap: 8px;
+    }
+
+
+    .service_projects .project .tags .items > *
+    {
+        padding: 3px 15px;
+    }
+
+
+    .service_projects .project .btns
+    {
+        margin-top: 12px;
+    }
+
+
+    .service_projects .all_link a
+    {
+        font-size: var(--font_size);
+
+        width: 280px;
+        padding: 12px;
+    }
+
+
+
+    /*------------------
+        Technologies
+    ------------------*/
+    .technologies .block_head
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .technologies .block_head .title span
+    {
+        margin-left: 92px;
+    }
+
+
+    .technologies .row
+    {
+        gap: 10px;
+    }
+
+
+    .technologies .row > *
+    {
+        font-size: var(--font_size);
+
+        padding: 4px 14px;
     }
 
 

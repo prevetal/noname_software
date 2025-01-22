@@ -34,6 +34,35 @@
 
 
 
+    /*---------------
+        Accordion
+    ---------------*/
+    .accordion_item + .accordion_item
+    {
+        margin-top: 12px;
+    }
+
+
+    .accordion_item .head
+    {
+        padding: 12px 48px 12px 0;
+    }
+
+
+    .accordion_item .head .title
+    {
+        font-size: 16px;
+    }
+
+
+    .accordion_item .head .icon
+    {
+        width: 20px;
+        height: 20px;
+    }
+
+
+
     /*-----------------
         Mob. header
     -----------------*/
@@ -818,6 +847,131 @@
     .vacancy_info .item .items
     {
         gap: 8px;
+    }
+
+
+
+    /*------------------
+        Service head
+    ------------------*/
+    .service_head .page_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .service_head .data .title
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*--------------------
+        Service brands
+    --------------------*/
+    .service_brands .row > *
+    {
+        width: calc(50% - 10px);
+    }
+
+
+    .service_brands .item
+    {
+        padding: 30px;
+    }
+
+
+
+    /*------------------------
+        Service principles
+    ------------------------*/
+    .service_principles .block_head .title span
+    {
+        margin-left: 92px;
+    }
+
+
+
+    /*----------------------
+        Service projects
+    ----------------------*/
+    .service_projects .block_head .title span
+    {
+        margin-left: 92px;
+    }
+
+
+    .service_projects .project .logo
+    {
+        width: 122px;
+        height: 30px;
+    }
+
+
+    .service_projects .project .image
+    {
+        margin-top: 12px;
+        padding: 16px;
+
+        gap: 16px;
+    }
+
+
+    .service_projects .project .tags .items
+    {
+        gap: 8px;
+    }
+
+
+    .service_projects .project .tags .items > *
+    {
+        padding: 3px 15px;
+    }
+
+
+    .service_projects .project .btns
+    {
+        margin-top: 12px;
+    }
+
+
+    .service_projects .all_link a
+    {
+        font-size: var(--font_size);
+
+        width: 280px;
+        padding: 12px;
+    }
+
+
+
+    /*------------------
+        Technologies
+    ------------------*/
+    .technologies .block_head
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .technologies .block_head .title span
+    {
+        margin-left: 92px;
+    }
+
+
+    .technologies .row
+    {
+        gap: 10px;
+    }
+
+
+    .technologies .row > *
+    {
+        font-size: var(--font_size);
+
+        padding: 4px 14px;
     }
 
 

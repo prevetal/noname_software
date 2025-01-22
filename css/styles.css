@@ -6465,6 +6465,8 @@ header .order_btn:hover
 
     pointer-events: none;
 
+    border-radius: inherit;
+
     object-fit: cover;
 }
 
@@ -6520,6 +6522,8 @@ header .order_btn:hover
 .service_head .data .link
 {
     align-self: center;
+
+    margin-left: auto;
 }
 
 
@@ -6698,6 +6702,15 @@ header .order_btn:hover
 .service_brands .item:nth-child(6)
 {
     margin-top: 320px;
+}
+
+
+.service_brands .item img
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
 }
 
 
@@ -7017,6 +7030,8 @@ header .order_btn:hover
 
 .service_projects .project .btns .btn.border
 {
+    padding: 9px 8px 8px;
+
     color: #00f;
     border: 2px solid;
     background: none;

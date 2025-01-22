@@ -629,6 +629,13 @@
     }
 
 
+    .services .head .block_head .title.small span
+    {
+        margin-top: 8px;
+        margin-left: 248px;
+    }
+
+
     .services .head .bg
     {
         width: 824px;
@@ -1672,6 +1679,244 @@
         width: 560px;
 
         opacity: .5;
+    }
+
+
+
+    /*------------------
+        Service head
+    ------------------*/
+    .service_head
+    {
+        padding-bottom: 80px;
+
+        border-radius: 0 0 68px 68px;
+    }
+
+
+    .service_head .data .title
+    {
+        font-size: 32px;
+
+        width: 580px;
+    }
+
+
+    .service_head .data .link a
+    {
+        font-size: 20px;
+
+        padding: 22px 66px;
+    }
+
+
+    .service_head .info
+    {
+        margin-top: 80px;
+        padding: 28px;
+
+        border-radius: 68px;
+    }
+
+
+    .service_head .info .item
+    {
+        font-size: 20px;
+    }
+
+
+    .service_head .info .icon
+    {
+        width: 160px;
+    }
+
+
+    .service_head .info .icon + *
+    {
+        width: 480px;
+        max-width: calc(100% - 184px);
+    }
+
+
+    .service_head .info .item:nth-child(2) .icon + *
+    {
+        width: 496px;
+    }
+
+
+
+    /*--------------------
+        Service brands
+    --------------------*/
+    .service_brands .block_head .title span
+    {
+        margin-left: 212px;
+    }
+
+
+    .service_brands .item
+    {
+        height: 220px;
+
+        border-radius: 24px;
+    }
+
+
+    .service_brands .item:nth-child(3),
+    .service_brands .item:nth-child(11)
+    {
+        margin-top: 60px;
+    }
+
+    .service_brands .item:nth-child(4),
+    .service_brands .item:nth-child(12)
+    {
+        margin-top: 120px;
+    }
+
+    .service_brands .item:nth-child(5)
+    {
+        margin-top: 180px;
+    }
+
+    .service_brands .item:nth-child(6)
+    {
+        margin-top: 240px;
+    }
+
+
+
+    /*------------------------
+        Service principles
+    ------------------------*/
+    .service_principles .block_head .title span
+    {
+        margin-left: 400px;
+    }
+
+
+
+    /*----------------------
+        Service projects
+    ----------------------*/
+    .service_projects .block_head
+    {
+        padding-bottom: 40px;
+    }
+
+
+    .service_projects .block_head .title span
+    {
+        margin-left: 200px;
+    }
+
+
+    .service_projects .list
+    {
+        gap: 48px;
+    }
+
+
+    .service_projects .project .info
+    {
+        width: 380px;
+    }
+
+
+    .service_projects .project .logo
+    {
+        width: 240px;
+        height: 60px;
+    }
+
+
+    .service_projects .project .desc
+    {
+        font-size: 20px;
+    }
+
+
+    .service_projects .project .image
+    {
+        width: calc(100% - 676px);
+        padding: 24px;
+
+        gap: 24px;
+    }
+
+
+    .service_projects .project .tags .label
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .service_projects .project .tags .items > *
+    {
+        font-size: 16px;
+
+        padding: 3px 23px;
+
+        border-radius: 40px;
+    }
+
+
+    .service_projects .project .btns
+    {
+        width: 248px;
+    }
+
+
+    .service_projects .project .btns .btn
+    {
+        font-size: 16px;
+    }
+
+
+    .service_projects .project .btns .btn .icon
+    {
+        width: 10px;
+        height: 14px;
+    }
+
+
+
+    .service_projects .all_link
+    {
+        margin-top: 48px;
+    }
+
+
+    .service_projects .all_link a
+    {
+        font-size: 20px;
+
+        width: 480px;
+        padding: 18px;
+    }
+
+
+
+    /*------------------
+        Technologies
+    ------------------*/
+    .technologies .block_head
+    {
+        margin-bottom: 40px;
+    }
+
+
+    .technologies .block_head .title span
+    {
+        margin-left: 400px;
+    }
+
+
+    .technologies .row > *
+    {
+        font-size: 24px;
+
+        padding: 14px 30px;
     }
 
 
