@@ -41,9 +41,9 @@ document.addEventListener('DOMContentLoaded', function () {
 			breakpoints: {
 				0: {
 					spaceBetween: 20,
-					slidesPerView: 1
+					slidesPerView: 'auto'
 				},
-				1280: {
+				1024: {
 					spaceBetween: 20,
 					slidesPerView: 2
 				}
@@ -64,7 +64,6 @@ document.addEventListener('DOMContentLoaded', function () {
 		let options = {
 			loop: false,
 			speed: 500,
-			spaceBetween: 20,
 			watchSlidesProgress: true,
 			slideActiveClass: 'active',
 			slideVisibleClass: 'visible',
@@ -75,13 +74,15 @@ document.addEventListener('DOMContentLoaded', function () {
 			lazy: true,
 			breakpoints: {
 				0: {
-					slidesPerView: 1,
-					grid: {
-						rows: 1,
-						fill: 'row'
-					}
+					spaceBetween: 10,
+					slidesPerView: 2
+				},
+				1024: {
+					spaceBetween: 20,
+					slidesPerView: 3
 				},
 				1280: {
+					spaceBetween: 20,
 					slidesPerView: 4,
 					grid: {
 						rows: 2,

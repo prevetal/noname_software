@@ -7161,7 +7161,6 @@ header .order_btn:hover
 {
     position: relative;
 
-    min-height: 611px;
     margin-bottom: 42px;
 
     border-radius: 50px;
@@ -7174,7 +7173,7 @@ header .order_btn:hover
     display: block;
 
     width: 100%;
-    min-height: 100%;
+    min-height: 611px;
 
     border-radius: inherit;
 
@@ -7330,7 +7329,7 @@ header .order_btn:hover
 .about_today .items .item .val
 {
     font-family: var(--font_family2);
-    font-size: 64px;
+    font-size: var(--font_size_title_small);
     line-height: 120%;
 
     text-transform: uppercase;
@@ -7426,10 +7425,8 @@ header .order_btn:hover
 }
 
 
-.about_today .accredited .logos img + img
+.about_today .accredited .logos > * + * img
 {
-    display: none;
-
     height: 42px;
 }
 

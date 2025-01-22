@@ -112,6 +112,14 @@
     }
 
 
+    .block_head .desc
+    {
+        font-size: 20px;
+
+        margin-top: 28px;
+    }
+
+
     .block_head .all_link
     {
         margin-top: 16px;
@@ -1712,6 +1720,338 @@
     {
         width: 10px;
         height: 14px;
+    }
+
+
+
+    /*----------------
+        About head
+    ----------------*/
+    .about_head
+    {
+        border-radius: 0 0 48px 48px;
+    }
+
+
+    .about_head .image
+    {
+        border-radius: 30px;
+    }
+
+
+    .about_head .image > img
+    {
+        min-height: 400px;
+    }
+
+
+    .about_head .logos
+    {
+        padding: 24px;
+
+        gap: 20px;
+    }
+
+
+    .about_head .logos > *
+    {
+        height: 80px;
+    }
+
+
+    .about_head .quote
+    {
+        width: calc(100% - 480px);
+    }
+
+
+    .about_head .quote .icon
+    {
+        width: 44px;
+    }
+
+
+    .about_head .quote .text,
+    .about_head .quote .author
+    {
+        font-size: 16px;
+    }
+
+
+    .about_head .title
+    {
+        font-size: 72px;
+
+        width: 440px;
+    }
+
+
+
+    /*-----------------
+        About today
+    -----------------*/
+    .about_today
+    {
+        padding: 48px 0;
+
+        border-radius: 48px;
+    }
+
+
+    .about_today .items
+    {
+        padding: 40px;
+    }
+
+
+    .about_today .items .item .desc
+    {
+        font-size: 18px;
+    }
+
+
+    .about_today .text
+    {
+        font-size: 18px;
+
+        border-radius: 30px;
+    }
+
+
+    .about_today .accredited
+    {
+        border-radius: 30px;
+    }
+
+
+
+    .about_today .accredited .title
+    {
+        font-size: 20px;
+
+        width: 340px;
+    }
+
+
+    .about_today .accredited .logos
+    {
+        margin-top: 28px;
+
+        gap: 20px;
+    }
+
+
+    .about_today .accredited .logos img
+    {
+        height: 24px;
+    }
+
+
+    .about_today .accredited .logos > * + * img
+    {
+        height: 23px;
+    }
+
+
+    .about_today .accredited .link
+    {
+        width: 200px;
+        height: 32px;
+    }
+
+
+
+    /*---------------
+        Geography
+    ---------------*/
+    .geography
+    {
+        padding: 48px 0;
+
+        border-radius: 48px;
+    }
+
+
+    .geography .directions .items
+    {
+        font-size: 18px;
+    }
+
+
+    .geography .directions .items > *
+    {
+        padding-left: 40px;
+    }
+
+
+    .geography .directions .items .arrows
+    {
+        top: 8px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .swiper
+    {
+        padding-bottom: 68px;
+    }
+
+
+    .products .swiper-button-next,
+    .products .swiper-button-prev
+    {
+        width: 48px;
+        height: 48px;
+    }
+
+
+    .products .swiper-button-prev
+    {
+        right: 96px;
+    }
+
+
+    .products .swiper-button-next .icon,
+    .products .swiper-button-prev .icon
+    {
+        width: 13px;
+        height: 17px;
+    }
+
+
+    .products .product .name
+    {
+        font-size: 16px;
+
+        width: 200px;
+    }
+
+
+    .products .product .desc
+    {
+        width: calc(100% - 220px);
+    }
+
+
+
+    /*-------------
+        Mission
+    -------------*/
+    .mission .item .thumb
+    {
+        border-radius: 30px;
+    }
+
+
+    .mission .item .desc
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*-------------
+        Clients
+    -------------*/
+    .clients .swiper,
+    .clients .swiper-slide
+    {
+        height: auto;
+    }
+
+
+    .clients .swiper-button-next,
+    .clients .swiper-button-prev
+    {
+        width: 48px;
+        height: 48px;
+    }
+
+
+    .clients .swiper-button-next .icon,
+    .clients .swiper-button-prev .icon
+    {
+        width: 13px;
+        height: 17px;
+    }
+
+
+    .clients .swiper-button-prev
+    {
+        right: 96px;
+    }
+
+
+    .clients .item
+    {
+        height: 324px;
+    }
+
+
+    .clients .item .logo
+    {
+        height: 40px;
+    }
+
+
+    .clients .item .author .name
+    {
+        font-size: 18px;
+    }
+
+
+
+    .clients .logos
+    {
+        gap: 10px;
+    }
+
+
+    .clients .logos > *,
+    .clients .logos > *:nth-child(5)
+    {
+        width: 148px;
+        height: 80px;
+        padding: 20px 0;
+    }
+
+
+    .clients .logos > *.big,
+    .clients .logos > *.bigger,
+    .clients .logos > *.biggest
+    {
+        width: 246px;
+    }
+
+
+
+    /*---------------
+        Downloads
+    ---------------*/
+    .downloads
+    {
+        padding-top: 0;
+    }
+
+
+    .downloads .block_head .desc
+    {
+        width: 440px;
+    }
+
+
+    .downloads .items
+    {
+        font-size: 18px;
+    }
+
+
+    .downloads .bg
+    {
+        width: 400px;
     }
 
 

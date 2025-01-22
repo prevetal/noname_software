@@ -169,6 +169,12 @@
     }
 
 
+    .page_head.mob_hode
+    {
+        display: none;
+    }
+
+
     .breadcrumbs
     {
         display: none;
@@ -1024,6 +1030,186 @@
     .cases .block_head .title span
     {
         margin-left: 92px;
+    }
+
+
+
+    /*----------------
+        About head
+    ----------------*/
+    .about_head
+    {
+        padding-top: 24px;
+    }
+
+
+    .about_head .image
+    {
+        margin-bottom: 20px;
+
+        border-radius: 20px;
+    }
+
+
+    .about_head .image > img
+    {
+        min-height: 200px;
+    }
+
+
+    .about_head .logos > *
+    {
+        padding: 4px;
+    }
+
+
+    .about_head .quote
+    {
+        width: calc(100% - 164px);
+    }
+
+
+    .about_head .quote .text,
+    .about_head .quote .author
+    {
+        font-size: 12px;
+    }
+
+
+    .about_head .title
+    {
+        width: 144px;
+    }
+
+
+
+    /*-----------------
+        About today
+    -----------------*/
+    .about_today .items .item
+    {
+        width: calc(50% - 4px);
+        padding: 16px 8px;
+    }
+
+
+    .about_today .items .item .val
+    {
+        font-size: 24px;
+    }
+
+
+    .about_today .items .item .desc
+    {
+        font-size: var(--font_size);
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .swiper-slide
+    {
+        width: 342px;
+    }
+
+
+    .products .product .name
+    {
+        width: 152px;
+    }
+
+
+    .products .product .desc
+    {
+        font-size: 10px;
+
+        width: calc(100% - 172px);
+    }
+
+
+
+    /*-------------
+        Mission
+    -------------*/
+    .mission .item
+    {
+        gap: 12px;
+    }
+
+
+
+    /*-------------
+        Clients
+    -------------*/
+    .clients .item
+    {
+        height: 260px;
+        padding: 16px 8px;
+
+        border-radius: 20px;
+    }
+
+
+    .clients .item .logo
+    {
+        height: 32px;
+    }
+
+
+    .clients .item .desc
+    {
+        font-size: 10px;
+    }
+
+
+    .clients .item .author
+    {
+        margin-top: 20px;
+    }
+
+
+    .clients .item .author .name
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .clients .item .author .post
+    {
+        font-size: 10px;
+    }
+
+
+
+    .clients .logos
+    {
+        margin-top: 24px;
+    }
+
+
+    .clients .logos > *,
+    .clients .logos > *:nth-child(5),
+    .clients .logos > *.big,
+    .clients .logos > *.bigger,
+    .clients .logos > *.biggest
+    {
+        width: calc(50% - 5px);
+        padding: 16px 12px;
+    }
+
+
+
+    /*---------------
+        Downloads
+    ---------------*/
+    .downloads .bg
+    {
+        top: 48px;
+
+        width: 200px;
+        margin-left: 20px;
     }
 
 

@@ -233,11 +233,25 @@
     }
 
 
+    .block_head .title br
+    {
+        display: none;
+    }
+
+
     .block_head .sub_title
     {
         font-size: 21px;
 
         width: 360px;
+        margin-top: 20px;
+    }
+
+
+    .block_head .desc
+    {
+        font-size: var(--font_size);
+
         margin-top: 20px;
     }
 
@@ -1894,6 +1908,325 @@
     {
         width: 253px;
         margin-top: 52px;
+    }
+
+
+
+    /*----------------
+        About head
+    ----------------*/
+    .about_head
+    {
+        border-radius: 0 0 30px 30px;
+    }
+
+
+    .about_head .image
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .about_head .image > img
+    {
+        min-height: 240px;
+    }
+
+
+    .about_head .logos
+    {
+        padding: 16px;
+
+        gap: 8px;
+    }
+
+
+    .about_head .logos > *
+    {
+        height: 40px;
+    }
+
+
+    .about_head .quote
+    {
+        width: calc(100% - 212px);
+    }
+
+
+    .about_head .quote .icon
+    {
+        display: none;
+    }
+
+
+    .about_head .title
+    {
+        font-size: var(--font_size_title);
+
+        width: 192px;
+    }
+
+
+
+    /*-----------------
+        About today
+    -----------------*/
+    .about_today
+    {
+        padding: 32px 0;
+
+        border-radius: 30px;
+    }
+
+
+    .about_today .items
+    {
+        padding: 0;
+
+        border-radius: 0;
+        background: none;
+    }
+
+
+    .about_today .items .sep
+    {
+        display: none;
+    }
+
+
+    .about_today .items .item
+    {
+        width: calc(50% - 5px);
+        padding: 16px;
+
+        text-align: center;
+
+        border-radius: 10px;
+        background: #e9f1fd;
+    }
+
+
+    .about_today .items .item:nth-child(3)
+    {
+        order: 3;
+
+        width: 100%;
+        margin-top: 10px;
+    }
+
+
+    .about_today .items .item .desc
+    {
+        font-size: 16px;
+    }
+
+
+    .about_today .row
+    {
+        margin-top: 10px;
+    }
+
+
+    .about_today .text
+    {
+        width: 100%;
+        padding: 20px 16px;
+    }
+
+
+    .about_today .accredited
+    {
+        width: 100%;
+        margin-top: 10px;
+        padding: 20px 16px;
+    }
+
+
+
+    .about_today .accredited .title
+    {
+        width: 232px;
+    }
+
+
+
+    /*---------------
+        Geography
+    ---------------*/
+    .geography
+    {
+        padding: 32px 0;
+
+        border-radius: 30px;
+    }
+
+
+    .geography .directions .items
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .geography .directions .items .arrows
+    {
+        top: 4px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .swiper-slide
+    {
+        width: 400px;
+    }
+
+
+    .products .product .name
+    {
+        width: 160px;
+    }
+
+
+    .products .product .desc
+    {
+        font-size: 12px;
+
+        width: calc(100% - 180px);
+    }
+
+
+
+    /*-------------
+        Mission
+    -------------*/
+    .mission .row
+    {
+        margin-bottom: -40px;
+        margin-left: -12px;
+    }
+
+
+    .mission .row > *
+    {
+        width: calc(50% - 10px);
+        margin-bottom: 40px;
+        margin-left: 10px;
+    }
+
+
+    .mission .item .thumb
+    {
+        border-radius: 20px;
+    }
+
+
+    .mission .item .desc
+    {
+        font-size: var(--font_size);
+    }
+
+
+    /*-------------
+        Clients
+    -------------*/
+    .clients .swiper
+    {
+        padding-top: 60px;
+    }
+
+
+    .clients .swiper-button-next,
+    .clients .swiper-button-prev
+    {
+        top: 0;
+        bottom: auto;
+
+        margin-bottom: 0;
+    }
+
+
+    .clients .item
+    {
+        height: 300px;
+        padding: 16px;
+    }
+
+
+    .clients .item .desc
+    {
+        font-size: 12px;
+
+        display: block;
+
+        margin-top: 0;
+    }
+
+
+    .clients .item .author
+    {
+        order: 3;
+
+        margin-top: 24px;
+    }
+
+
+    .clients .item .author .name
+    {
+        font-size: 16px;
+    }
+
+
+    .clients .item .author .post
+    {
+        font-size: 12px;
+
+        margin-top: 4px;
+    }
+
+
+
+    .clients .logos > *,
+    .clients .logos > *:nth-child(5),
+    .clients .logos > *.big,
+    .clients .logos > *.bigger,
+    .clients .logos > *.biggest
+    {
+        width: 140px;
+        height: 60px;
+        padding: 16px;
+    }
+
+
+
+    /*---------------
+        Downloads
+    ---------------*/
+    .downloads .block_head .desc
+    {
+        width: 200px;
+    }
+
+
+    .downloads .items
+    {
+        font-size: 16px;
+    }
+
+
+    .downloads .items .arrows
+    {
+        top: 4px;
+    }
+
+
+    .downloads .bg
+    {
+        top: 40px;
+
+        width: 260px;
+        margin-left: 0;
     }
 
 

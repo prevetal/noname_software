@@ -167,6 +167,14 @@
     }
 
 
+    .block_head .desc
+    {
+        font-size: 16px;
+
+        margin-top: 24px;
+    }
+
+
     .block_head .all_link a
     {
         font-size: 18px;
@@ -1870,6 +1878,324 @@
     .next_product .link a
     {
         font-size: 24px;
+    }
+
+
+
+    /*----------------
+        About head
+    ----------------*/
+    .about_head
+    {
+        border-radius: 0 0 40px 40px;
+    }
+
+
+    .about_head .image > img
+    {
+        min-height: 320px;
+    }
+
+
+    .about_head .logos
+    {
+        padding: 20px;
+    }
+
+
+    .about_head .logos > *
+    {
+        height: 44px;
+        padding: 8px;
+
+        border-radius: 10px;
+    }
+
+
+    .about_head .quote
+    {
+        width: calc(100% - 320px);
+    }
+
+
+    .about_head .quote .icon
+    {
+        width: 40px;
+    }
+
+
+    .about_head .quote .text,
+    .about_head .quote .author
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .about_head .title
+    {
+        font-size: 48px;
+
+        width: 300px;
+    }
+
+
+
+    /*-----------------
+        About today
+    -----------------*/
+    .about_today
+    {
+        padding: 40px 0;
+
+        border-radius: 40px;
+    }
+
+
+    .about_today .items
+    {
+        padding: 24px;
+
+        border-radius: 20px;
+    }
+
+
+    .about_today .items .sep
+    {
+        width: 2px;
+    }
+
+
+    .about_today .items .item .val
+    {
+        font-size: 28px;
+    }
+
+
+    .about_today .items .item .desc
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .about_today .text
+    {
+        font-size: var(--font_size);
+
+        padding: 16px;
+
+        border-radius: 20px;
+    }
+
+
+    .about_today .accredited
+    {
+        padding: 16px;
+
+        border-radius: 20px;
+    }
+
+
+
+    .about_today .accredited .title
+    {
+        font-size: var(--font_size);
+
+        width: 268px;
+    }
+
+
+    .about_today .accredited .logos
+    {
+        margin-top: 20px;
+
+        gap: 12px;
+    }
+
+
+    .about_today .accredited .logos img
+    {
+        height: 17px;
+    }
+
+
+    .about_today .accredited .logos > * + * img
+    {
+        height: 17px;
+    }
+
+
+    .about_today .accredited .link
+    {
+        font-size: 10px;
+
+        right: 16px;
+        bottom: 16px;
+
+        width: 140px;
+        height: 24px;
+
+        gap: 8px;
+    }
+
+
+    .about_today .accredited .link .icon
+    {
+        width: 8px;
+        height: 11px;
+    }
+
+
+
+    /*---------------
+        Geography
+    ---------------*/
+    .geography
+    {
+        padding: 40px 0;
+
+        border-radius: 40px;
+    }
+
+
+    .geography .directions .items
+    {
+        font-size: 16px;
+    }
+
+
+    .geography .directions .items .arrows
+    {
+        top: 5px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .swiper
+    {
+        padding-bottom: 60px;
+    }
+
+
+    .products .swiper-slide
+    {
+        width: 480px;
+    }
+
+
+    .products .swiper-button-next,
+    .products .swiper-button-prev
+    {
+        width: 40px;
+        height: 40px;
+    }
+
+
+    .products .swiper-button-prev
+    {
+        right: 60px;
+    }
+
+
+    .products .swiper-button-next .icon,
+    .products .swiper-button-prev .icon
+    {
+        width: 10px;
+        height: 14px;
+    }
+
+
+    .products .product .name
+    {
+        font-size: var(--font_size);
+
+        width: 180px;
+    }
+
+
+    .products .product .desc
+    {
+        width: calc(100% - 200px);
+    }
+
+
+
+    /*-------------
+        Mission
+    -------------*/
+    .mission .row > *
+    {
+        width: calc(50% - 24px);
+    }
+
+
+
+    /*-------------
+        Clients
+    -------------*/
+    .clients .swiper-button-next,
+    .clients .swiper-button-prev
+    {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 30px;
+    }
+
+
+    .clients .swiper-button-next .icon,
+    .clients .swiper-button-prev .icon
+    {
+        width: 10px;
+        height: 14px;
+    }
+
+
+    .clients .swiper-button-prev
+    {
+        right: 60px;
+    }
+
+
+
+    .clients .logos
+    {
+        gap: 10px;
+    }
+
+
+    .clients .logos > *,
+    .clients .logos > *:nth-child(5),
+    .clients .logos > *.big,
+    .clients .logos > *.bigger,
+    .clients .logos > *.biggest
+    {
+        width: 168px;
+
+        border-radius: 10px;
+    }
+
+
+
+    /*---------------
+        Downloads
+    ---------------*/
+    .downloads .block_head .desc
+    {
+        width: 400px;
+    }
+
+
+    .downloads .items .arrows
+    {
+        top: 6px;
+    }
+
+
+    .downloads .bg
+    {
+        width: 320px;
     }
 
 

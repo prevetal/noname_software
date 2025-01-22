@@ -214,6 +214,14 @@
     }
 
 
+    .block_head .desc
+    {
+        font-size: 24px;
+
+        margin-top: 32px;
+    }
+
+
 
     /*----------------
         Typography
@@ -1915,6 +1923,372 @@
     {
         width: 13px;
         height: 17px;
+    }
+
+
+
+    /*----------------
+        About head
+    ----------------*/
+    .about_head
+    {
+        padding-bottom: 40px;
+
+        border-radius: 0 0 60px 60px;
+    }
+
+
+    .about_head .image
+    {
+        border-radius: 32px;
+    }
+
+
+    .about_head .image > img
+    {
+        min-height: 480px;
+    }
+
+
+    .about_head .logos
+    {
+        gap: 24px;
+    }
+
+
+    .about_head .logos > *
+    {
+        border-radius: 20px;
+    }
+
+
+    .about_head .quote .icon
+    {
+        width: 48px;
+    }
+
+
+    .about_head .quote .text,
+    .about_head .quote .author
+    {
+        font-size: 18px;
+    }
+
+
+    .about_head .title
+    {
+        font-size: 88px;
+
+        width: 560px;
+    }
+
+
+
+    /*-----------------
+        About today
+    -----------------*/
+    .about_today
+    {
+        border-radius: 60px;
+    }
+
+
+    .about_today .items .item .desc
+    {
+        font-size: 20px;
+    }
+
+
+    .about_today .text
+    {
+        font-size: 20px;
+
+        padding: 24px;
+
+        border-radius: 32px;
+    }
+
+
+    .about_today .accredited
+    {
+        padding: 24px;
+
+        border-radius: 32px;
+    }
+
+
+
+    .about_today .accredited .title
+    {
+        font-size: 24px;
+
+        width: 420px;
+    }
+
+
+    .about_today .accredited .logos
+    {
+        margin-top: 32px;
+
+        gap: 24px;
+    }
+
+
+    .about_today .accredited .logos img
+    {
+        height: 28px;
+    }
+
+
+    .about_today .accredited .logos > * + * img
+    {
+        height: 27px;
+    }
+
+
+    .about_today .accredited .link
+    {
+        font-size: var(--font_size);
+
+        right: 24px;
+        bottom: 24px;
+
+        width: 240px;
+        height: 40px;
+    }
+
+
+
+    /*---------------
+        Geography
+    ---------------*/
+    .geography
+    {
+        border-radius: 60px;
+    }
+
+
+    .geography .directions .items
+    {
+        font-size: 24px;
+
+        gap: 16px;
+    }
+
+
+    .geography .directions .items > *
+    {
+        padding-left: 48px;
+    }
+
+
+    .geography .directions .items .arrows
+    {
+        top: 12px;
+    }
+
+
+    .geography .directions .items .arrows svg
+    {
+        width: 8px;
+        height: 11px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .swiper
+    {
+        padding-bottom: 72px;
+    }
+
+
+    .products .swiper-button-next,
+    .products .swiper-button-prev
+    {
+        width: 52px;
+        height: 52px;
+    }
+
+
+    .products .swiper-button-prev
+    {
+        right: 104px;
+    }
+
+
+    .products .swiper-button-next .icon,
+    .products .swiper-button-prev .icon
+    {
+        width: 15px;
+        height: 20px;
+    }
+
+
+    .products .product .name
+    {
+        font-size: 18px;
+
+        width: 240px;
+    }
+
+
+    .products .product .desc
+    {
+        font-size: var(--font_size);
+
+        width: calc(100% - 260px);
+    }
+
+
+
+    /*-------------
+        Mission
+    -------------*/
+    .mission .block_head
+    {
+        padding-bottom: 0;
+    }
+
+
+    .mission .item
+    {
+        gap: 20px;
+    }
+
+
+    .mission .item .thumb
+    {
+        border-radius: 32px;
+    }
+
+
+    .mission .item .desc
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*-------------
+        Clients
+    -------------*/
+    .clients .swiper-button-next,
+    .clients .swiper-button-prev
+    {
+        width: 52px;
+        height: 52px;
+        margin-bottom: 48px;
+    }
+
+
+    .clients .swiper-button-next .icon,
+    .clients .swiper-button-prev .icon
+    {
+        width: 15px;
+        height: 20px;
+    }
+
+
+    .clients .swiper-button-prev
+    {
+        right: 104px;
+    }
+
+
+    .clients .item
+    {
+        padding: 24px;
+    }
+
+
+    .clients .item .logo
+    {
+        height: 44px;
+    }
+
+
+    .clients .item .author .name
+    {
+        font-size: 20px;
+    }
+
+
+    .clients .item .author .post
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .clients .item .desc
+    {
+        margin-top: 20px;
+    }
+
+
+
+    .clients .logos
+    {
+        gap: 10px;
+    }
+
+
+    .clients .logos > *,
+    .clients .logos > *:nth-child(5)
+    {
+        width: 180px;
+    }
+
+
+    .clients .logos > *.big,
+    .clients .logos > *.bigger,
+    .clients .logos > *.biggest
+    {
+        width: 326px;
+    }
+
+
+
+    /*---------------
+        Downloads
+    ---------------*/
+    .downloads
+    {
+        padding-top: 20px;
+    }
+
+
+    .downloads .block_head .desc
+    {
+        width: 560px;
+    }
+
+
+    .downloads .items
+    {
+        font-size: 20px;
+    }
+
+
+    .downloads .items a
+    {
+        padding-left: 32px;
+    }
+
+
+    .downloads .items .arrows svg
+    {
+        width: 8px;
+        height: 11px;
+    }
+
+
+    .downloads .bg
+    {
+        width: 480px;
+        margin-left: 24px;
     }
 
 
