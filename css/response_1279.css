@@ -1133,6 +1133,104 @@
 
 
 
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .map_wrap
+    {
+        padding: 68px 0;
+
+        border-radius: 30px;
+    }
+
+
+    .contacts_info .map_wrap .data
+    {
+        width: 360px;
+        padding: 40px 48px;
+
+        border-radius: 30px;
+
+        gap: 28px;
+    }
+
+
+    .contacts_info .map_wrap .company
+    {
+        font-size: 24px;
+    }
+
+
+    .contacts_info .map_wrap .label
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .contacts_info .map_wrap .val
+    {
+        font-size: 20px;
+    }
+
+
+
+    .contacts_info .info .row
+    {
+        margin-left: -24px;
+    }
+
+
+    .contacts_info .info .row > *
+    {
+        width: calc(25% - 24px);
+        margin-left: 24px;
+    }
+
+
+    .contacts_info .info .name
+    {
+        font-size: 22px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .contacts_info .info .label
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .contacts_info .info .val
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback
+    {
+        border-radius: 40px;
+    }
+
+
+    .feedback .form .input,
+    .feedback .form .nice-select .current
+    {
+        font-size: 16px;
+    }
+
+
+    .feedback .bg
+    {
+        width: 480px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

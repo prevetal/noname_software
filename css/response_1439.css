@@ -1306,6 +1306,110 @@
 
 
 
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .map_wrap
+    {
+        padding: 80px 0;
+
+        border-radius: 32px;
+    }
+
+
+    .contacts_info .map_wrap .data
+    {
+        width: 440px;
+        padding: 48px 68px;
+
+        border-radius: 32px;
+
+        gap: 40px;
+    }
+
+
+    .contacts_info .map_wrap .company
+    {
+        font-size: 28px;
+    }
+
+
+    .contacts_info .map_wrap .label
+    {
+        font-size: 16px;
+
+        margin-bottom: 2px;
+    }
+
+
+    .contacts_info .map_wrap .val
+    {
+        font-size: 26px;
+    }
+
+
+
+    .contacts_info .info .row
+    {
+        margin-left: -60px;
+    }
+
+
+    .contacts_info .info .row > *
+    {
+        width: calc(25% - 60px);
+        margin-left: 60px;
+    }
+
+
+    .contacts_info .info .name
+    {
+        font-size: 26px;
+
+        margin-bottom: 24px;
+    }
+
+
+    .contacts_info .info .label
+    {
+        font-size: 16px;
+
+        margin-bottom: 2px;
+    }
+
+
+    .contacts_info .info .val
+    {
+        font-size: 20px;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback
+    {
+        padding: 52px 0 60px;
+
+        border-radius: 60px;
+    }
+
+
+    .feedback .form
+    {
+        width: 960px;
+    }
+
+
+    .feedback .form .input,
+    .feedback .form .nice-select .current
+    {
+        font-size: 18px;
+    }
+
+
+
     /*------------
         Footer
     ------------*/

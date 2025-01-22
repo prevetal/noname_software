@@ -1403,6 +1403,119 @@
 
 
 
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .map_wrap #map
+    {
+        height: 397px;
+        margin-bottom: 20px;
+
+        border-radius: 30px;
+    }
+
+
+    .contacts_info .map_wrap .data
+    {
+        padding: 19px 49px 20px 61px;
+
+        border-radius: 30px;
+
+        gap: 16px;
+    }
+
+
+    .contacts_info .map_wrap .company
+    {
+        font-size: 20px;
+    }
+
+
+    .contacts_info .map_wrap .label
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .contacts_info .map_wrap .val
+    {
+        font-size: 18px;
+    }
+
+
+
+    .contacts_info .info .row
+    {
+        margin-bottom: -24px;
+        margin-left: 0;
+    }
+
+
+    .contacts_info .info .row > *
+    {
+        width: 100%;
+        margin-bottom: 24px;
+        margin-left: 0;
+    }
+
+
+    .contacts_info .info .item
+    {
+        padding: 0 29px 0 41px;
+    }
+
+
+    .contacts_info .info .name
+    {
+        font-size: 20px;
+
+        margin-bottom: 12px;
+    }
+
+
+    .contacts_info .info .contacts
+    {
+        gap: 16px;
+    }
+
+
+    .contacts_info .info .label
+    {
+        font-size: var(--font_size);
+    }
+
+
+    .contacts_info .info .val
+    {
+        font-size: 18px;
+    }
+
+
+
+    /*--------------
+        Feedback
+    --------------*/
+    .feedback
+    {
+        padding: 40px 32px;
+
+        border-radius: 30px;
+    }
+
+
+    .feedback .form .columns > *.width1of4
+    {
+        width: calc(100% - var(--form_columns_offset));
+    }
+
+
+    .feedback .bg
+    {
+        display: none;
+    }
+
+
+
     /*------------
         Footer
     ------------*/
