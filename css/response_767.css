@@ -87,6 +87,12 @@
     }
 
 
+    .accordion_item .data
+    {
+        padding-right: 0;
+    }
+
+
 
     /*-----------------
         Mob. header

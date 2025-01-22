@@ -586,13 +586,22 @@ html.with-fancybox body.hide-scrollbar
 {
     display: none;
 
-    padding: 15px 70px 15px 0;
+    padding: 0 70px 20px 0;
 }
 
 
 .accordion_item.active .head .icon
 {
     transform: rotate(135deg);
+}
+
+
+.accordion_item .data .text_block
+{
+    font-size: var(--font_size);
+
+    width: 964px;
+    max-width: 100%;
 }
 
 
