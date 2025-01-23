@@ -4,25 +4,13 @@
 @font-face
 {
     font-family: 'HagridTextTrial';
-    font-weight: normal;
-    font-style: normal;
-
-    font-display: swap;
-    src: url('../fonts/hagridtexttrial-regular.woff2') format('woff2'),
-    url('../fonts/hagridtexttrial-regular.woff') format('woff'),
-    url('../fonts/hagridtexttrial-regular.ttf') format('truetype');
-}
-
-@font-face
-{
-    font-family: 'HagridTextTrial';
     font-weight: 500;
     font-style: normal;
 
     font-display: swap;
-    src: url('../fonts/HagridTextTrial-Medium.woff2') format('woff2'),
-    url('../fonts/HagridTextTrial-Medium.woff') format('woff'),
-    url('../fonts/HagridTextTrial-Medium.ttf') format('truetype');
+    src: url('../fonts/hagrid-text-medium-trial.woff2.woff2') format('woff2'),
+    url('../fonts/hagrid-text-medium-trial.woff.woff') format('woff'),
+    url('../fonts/hagrid-text-medium-trial.ttf.ttf') format('truetype');
 }
 
 
@@ -6667,6 +6655,8 @@ header .order_btn:hover
     position: relative;
 
     margin-left: -20px;
+
+    gap: 20px 0;
 }
 
 
@@ -7358,6 +7348,7 @@ header .order_btn:hover
 {
     font-family: var(--font_family2);
     font-size: var(--font_size_title_small);
+    font-weight: 500;
     line-height: 120%;
 
     text-transform: uppercase;

@@ -315,6 +315,29 @@ document.addEventListener('DOMContentLoaded', function () {
 			type: 'inline'
 		}])
 	})
+
+
+	// Service brands
+	serviceBrandsStartAnimation = $('.service_brands .row').offset().top - WH
+	serviceBrandsFinishAnimation = $('.service_brands .row').offset().top + ($('.service_brands .row').height() * 0.65) - WH
+	serviceBrandsAnimationPath = serviceBrandsFinishAnimation - serviceBrandsStartAnimation
+
+	$('.service_brands .item').each(function() {
+		$(this).attr('data-margin', $(this).css('margin-top'))
+	})
+})
+
+
+
+window.addEventListener('scroll', function () {
+	// Service brands
+	if ($(window).scrollTop() > serviceBrandsStartAnimation && $(window).scrollTop() < serviceBrandsFinishAnimation) {
+		let pathTraveled = ($(window).scrollTop() - serviceBrandsStartAnimation) / serviceBrandsAnimationPath
+
+		$('.service_brands .item').each(function() {
+			$(this).css('margin-top', Math.ceil(parseInt($(this).data('margin')) * (1 - pathTraveled)))
+		})
+	}
 })
 
 
